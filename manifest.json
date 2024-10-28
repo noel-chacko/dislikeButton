@@ -1,20 +1,16 @@
 {
-    "manifest_version": 3,
-    "name": "LinkedIn Dislike Button",
-    "version": "1.0",
-    "description": "Adds a dislike button to LinkedIn posts.",
-    "permissions": [
-      "activeTab",
-      "scripting"
-    ],
-    "content_scripts": [
-      {
-        "matches": ["https://www.linkedin.com/*"],
-        "js": ["content.js"]
-      }
-    ],
-    "icons": {
-      "16": "icon16.png"
+  "manifest_version": 3,
+  "name": "LinkedIn Dislike Button",
+  "version": "1.0",
+  "description": "Adds a dislike button to LinkedIn posts.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.linkedin.com/*"],
+      "js": ["content.js"]
     }
-  }
-  
+  ]
+}
